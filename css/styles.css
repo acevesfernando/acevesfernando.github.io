@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap");
+
+* {
+  font-family: "Teko", sans-serif;
+}
+
+.navbar {
+  background-color: #0d0d0d;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 2em;
+  text-shadow: 2px 2px #4f698c;
+}
+
+.icon-menu {
+  color: #fff;
+  font-size: 1.4em;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+section .section-title h2 {
+  font-size: 2em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+section p {
+  margin-bottom: 1em;
+  font-size: 1.2em;
+}
+
+section button {
+  margin-bottom: 1em;
+  background-color: #0d0d0d; /* Green */
+  border: none;
+  color: white;
+  padding: 0.5em 0.5em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2em;
+  border-radius: 10px;
+}
+
+section button:hover {
+  background-color: #4f698c;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-main,
+.banner {
+  background-image: url("/images/banner.jpg");
+  background-size: cover;
+  height: 35em;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.banner-main .btn-dark,
+.banner .btn-dark {
+  font-size: 2em;
+}
+
+.banner-main h3,
+.banner h3 {
+  font-size: 2.2em;
+  color: #fff;
+  text-shadow: 2px 2px #0d0d0d;
+}
+
+.picks-dia h2 {
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  border: 2px solid #000;
+  margin: 2em 0em;
+  background-color: #000;
+  color: #fff;
+  text-shadow: 2px 2px #4f698c;
+}
+
+.card h5 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.card img {
+  padding-top: 1em;
+  width: 100%;
+  height: 12em;
+}
+
+.card p {
+  text-align: justify;
+}
+
+.acerca .last-txt {
+  text-align: center;
+}
+
+.card h4 {
+  font-style: italic;
+  text-align: center;
+}
+
+.section-cards {
+  padding-top: 2em;
+}
+
+.pick-card {
+  width: 25rem;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+  margin: 2em 0;
+}
+
+.pick-card .card-body {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.pick-card h3 {
+  font-size: 2.2em;
+  text-align: center;
+}
+
+.pick-card h4 {
+  text-align: center;
+}
+
+.pick-card .row {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.pick-card .special {
+  justify-content: center;
+}
+
+.pick-card .row span {
+  width: auto;
+}
+
+.pick-card .status {
+  text-align: center;
+}
+
+.lost {
+  background-color: rgba(180, 0, 0, 0.5);
+}
+
+.win {
+  background-color: rgba(0, 180, 0, 0.5);
+}
+
+footer {
+  background-color: #0d0d0d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p {
+  padding-top: 1em;
+  color: #fff;
+  font-size: 1.3em;
+  text-align: center;
+  margin: 0.5em 2em;
+}
+
+@media (min-width: 1082px) {
+  ul li {
+    padding: 1em;
+  }
+
+  .banner-main {
+    height: 40em;
+  }
+
+  .banner-main h3 {
+    font-size: 4.5em;
+  }
+
+  section p {
+    font-size: 1.5em;
+  }
+
+  .container {
+    padding: 0em 8em;
+  }
+}

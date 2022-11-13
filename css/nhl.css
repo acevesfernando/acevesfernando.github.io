@@ -1,0 +1,36 @@
+.banner {
+  background-image: url("/images/NHL.jpg");
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.box {
+  width: auto;
+  font-size: 1.5em;
+}
+
+.card {
+  margin: 1em 2em;
+  width: 18rem;
+  background-image: url("/images/nhl-picks.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #000;
+  text-shadow: 2px 2px #fff;
+}
+
+@media (min-width: 1082px) {
+  .banner {
+    height: 40em;
+  }
+
+  .banner h3 {
+    font-size: 4.5em;
+  }
+}
